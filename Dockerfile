@@ -25,7 +25,8 @@ RUN  apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
   vim-doc \
   i7z \
   dos2unix \
-  docker.io 
+  docker.io \
+  docker-compose
   
 CMD ["/bin/bash"]  
 
